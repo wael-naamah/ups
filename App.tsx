@@ -15,7 +15,11 @@ import RootNavigator from './src/navigator/RootNavigator';
 import {ApolloClient, ApolloProvider, InMemoryCache} from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://dashboard.stepzen.com/explorer?endpoint=api%2Fintended-dolphin',
+  uri: 'https://chiquilistlan.stepzen.net/api/intended-dolphin/__graphql',
+  headers: {
+    Authorization:
+      'apikey chiquilistlan::stepzen.io+1000::54ce63bdbadd3976075cb94476cd146d49ae32db99c01952a085a4868955700c',
+  },
   cache: new InMemoryCache(),
 });
 
