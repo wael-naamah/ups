@@ -19,14 +19,46 @@
 			"position": "relative"
 		}
 	},
-	"mb-5": {
+	"right-5": {
 		"style": {
-			"marginBottom": 20
+			"right": 20
+		}
+	},
+	"top-5": {
+		"style": {
+			"top": 20
+		}
+	},
+	"z-10": {
+		"style": {
+			"zIndex": 10
+		}
+	},
+	"mx-auto": {
+		"style": {
+			"marginLeft": "auto",
+			"marginRight": "auto"
+		}
+	},
+	"my-2": {
+		"style": {
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"ml-auto": {
 		"style": {
 			"marginLeft": "auto"
+		}
+	},
+	"mt-10": {
+		"style": {
+			"marginTop": 40
+		}
+	},
+	"mt-5": {
+		"style": {
+			"marginTop": 20
 		}
 	},
 	"block": {
@@ -54,6 +86,31 @@
 			"height": 256
 		}
 	},
+	"h-2": {
+		"style": {
+			"height": 8
+		}
+	},
+	"h-10": {
+		"style": {
+			"height": 40
+		}
+	},
+	"h-fit": {
+		"style": {
+			"height": "fit-content"
+		}
+	},
+	"h-40": {
+		"style": {
+			"height": 160
+		}
+	},
+	"h-48": {
+		"style": {
+			"height": 192
+		}
+	},
 	"w-full": {
 		"style": {
 			"width": "100%"
@@ -72,11 +129,6 @@
 	"justify-end": {
 		"style": {
 			"justifyContent": "flex-end"
-		}
-	},
-	"justify-center": {
-		"style": {
-			"justifyContent": "center"
 		}
 	},
 	"justify-between": {
@@ -100,6 +152,11 @@
 			"borderLeftWidth": 1
 		}
 	},
+	"border-b": {
+		"style": {
+			"borderBottomWidth": 1
+		}
+	},
 	"bg-white": {
 		"style": {
 			"--tw-bg-opacity": 1,
@@ -120,6 +177,12 @@
 			"paddingRight": 40
 		}
 	},
+	"py-5": {
+		"style": {
+			"paddingTop": 20,
+			"paddingBottom": 20
+		}
+	},
 	"pb-0": {
 		"style": {
 			"paddingBottom": 0
@@ -130,10 +193,32 @@
 			"paddingTop": 20
 		}
 	},
+	"pb-48": {
+		"style": {
+			"paddingBottom": 192
+		}
+	},
+	"text-center": {
+		"style": {
+			"textAlign": "center"
+		}
+	},
 	"text-2xl": {
 		"style": {
 			"fontSize": 24,
 			"lineHeight": 32
+		}
+	},
+	"text-base": {
+		"style": {
+			"fontSize": 16,
+			"lineHeight": 24
+		}
+	},
+	"text-lg": {
+		"style": {
+			"fontSize": 18,
+			"lineHeight": 28
 		}
 	},
 	"text-sm": {
@@ -142,10 +227,16 @@
 			"lineHeight": 20
 		}
 	},
-	"text-lg": {
+	"text-xl": {
 		"style": {
-			"fontSize": 18,
+			"fontSize": 20,
 			"lineHeight": 28
+		}
+	},
+	"text-xs": {
+		"style": {
+			"fontSize": 12,
+			"lineHeight": 16
 		}
 	},
 	"font-bold": {
@@ -163,10 +254,15 @@
 			"textTransform": "capitalize"
 		}
 	},
-	"text-red-500": {
+	"italic": {
+		"style": {
+			"fontStyle": "italic"
+		}
+	},
+	"text-white": {
 		"style": {
 			"--tw-text-opacity": 1,
-			"color": "rgb(239 68 68 / var(--tw-text-opacity))"
+			"color": "rgb(255 255 255 / var(--tw-text-opacity))"
 		}
 	}
 }
