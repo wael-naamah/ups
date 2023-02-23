@@ -2,11 +2,12 @@ import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TabNavigator from './TabNavigator';
 import OrderModal from '../screens/OrderModal';
+import OrderScreen from '../screens/OrderScreen';
 
 export type RootStackParamList = {
   Main: undefined;
   OrderModal: {userId: string; name: string};
-  Order: any;
+  Order: {order: Order};
 };
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
@@ -24,6 +25,10 @@ const RootNavigator = () => {
           name="OrderModal"
           component={OrderModal}
         />
+      </RootStack.Group>
+
+      <RootStack.Group>
+        <RootStack.Screen name="Order" component={OrderScreen} />
       </RootStack.Group>
     </RootStack.Navigator>
   );
