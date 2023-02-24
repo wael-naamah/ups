@@ -6,16 +6,18 @@ TypeScript, Firebase, GraphQL, StepZen & Tailwind CSS
 
 ## Customers 
 
-| Customers | Customer orders |
-| --- | --- |
-| <img src="./screenshots/customers.png" > | <img src="./screenshots/customers_orders.png" > |
+| Customers |    | Customer orders |
+| --- | -- | --- |
+| <img src="./screenshots/customers.png" width="300"> |  | <img src="./screenshots/customer_orders.png" width="300"> |
 
 
 ## Orders 
 
-| Orders | Order truck |
-| --- | --- |
-| <img src="./screenshots/orders.png" > | <img src="./screenshots/order.png" > |
+| Orders |    | Order truck |
+| --- | -- | --- |
+| <img src="./screenshots/orders.png" width="300"> |  | <img src="./screenshots/order.png" width="300"> |
+
+
 
 
 Android [![Build status](https://build.appcenter.ms/v0.1/apps/058b6907-6481-4518-878e-cee0f0329b28/branches/dev/badge)](https://appcenter.ms)
